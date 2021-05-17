@@ -38,7 +38,7 @@ a{
 }
 p{
   color: #555;
-  tempext-decoration: underlines; /**** color in Text on Manubar Black text***/
+  text-decoration: underlines; /**** color in Text on Manubar Black text***/
 }
 
 
@@ -142,7 +142,7 @@ p{
     padding: 8px 30px;
     margin: 15px 0;
     border-radius: 30px;
-    transition: background 0.5;
+    transition: background-color 0.5;
     justify-content: center;
     font-family: 'Krona One';
   }
@@ -165,7 +165,7 @@ p{
   padding: 8px 30px;
   margin: 15px 0;
   border-radius: 30px;
-  transition: background 0.5;
+  transition: background-color 0.5;
   justify-content: center;
   font-family: 'Krona One';}
 
@@ -173,7 +173,6 @@ p{
 .h8{
   text-align: center;
   color: black;
-  margin: center;
 }
 
 .small-container{
@@ -200,7 +199,7 @@ p{
   color: Black;
   font-weight: normal;
   text-decoration: underline;
-  font-style: 10px;
+  font-size: 10px;
 }
 .col-3 h5{
   color: black;
@@ -218,7 +217,7 @@ p{
   float: left;
 }
 .col-3:hover{
-  transform: translateY(-5);
+  transform: translateY(0);
 }
 .price-tag{
   float: right;
@@ -262,7 +261,7 @@ p{
   color: Black;
   font-weight: normal;
   text-decoration: underline;
-  font-style: 10px;
+  font-size: 10px;
 }
 .col-4 h5{
   color: black;
@@ -291,8 +290,6 @@ p{
 
 /* Comments */
 .comment-box{
-  position: center;
-  transform: translate(-50% 50%);
   width: 500px;
   height: 100px;
   /* text-align: center;
@@ -501,7 +498,6 @@ select:focus{
 
 .upload{
   /* background-color: #ff523b; /* red */ */
-   border: 1px solid #ff523b;
    color: white;
    text-decoration: none;
    display: inline-block;
