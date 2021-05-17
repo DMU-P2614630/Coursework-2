@@ -492,7 +492,6 @@ select:focus{
 
 .upload{
   /* background-color: #ff523b; /* red */ */
-   text-decoration: none;
    display: inline-block;
    font-size: 16px;
  }
